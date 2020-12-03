@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://contentful.github.io/ui-extensions-sdk/cf-extension.css">
+    <script src="https://unpkg.com/contentful-ui-extensions-sdk@3"></script>
+    <title>Default Boolean Value Plugin</title>
+</head>
+<body>
+<div class="cf-form-field">
+    <div class="cf-form-option">
+        <input type="radio" id="trueRadio" name="booleanRadios" value="true" />
+        <label for="trueRadio" style="margin-right: 14px;">true</label>
+        <input type="radio" id="falseRadio" name="booleanRadios" value="false" />
+        <label for="falseRadio">false</label>
+    </div>
+    <div class="cf-form-hint">Default value: <span  id="defaultValue"></span></div>
+</div>
+<script src="./default-value.js"></script>
+</body>
+</html>
